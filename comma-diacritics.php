@@ -28,6 +28,8 @@ Author URI: http://stas.nerd.ro/
 ?>
 <?php
 
+define( 'COMMA_DIAS_VERSION', '0.1' );
+
 function comma_dias_check( $data ) { 
     if( !is_array( $data ) )
         return $data;
@@ -48,5 +50,11 @@ function comma_dias_check( $data ) {
     return $data;
 }
 
+function comma_dias_enqueues() {
+    wp_register_script( 'commadias', plugins_url( '/js/commadias.plugin.js', __FILE__ ), array( 'jquery' ), COMMA_DIAS_VERSION );
+    wp_enqueue_script( 'comma_dias_check', plugins_url( '/js/comma_dias_check.js', __FILE__ ), array( 'commadias' ), COMMA_DIAS_VERSION, true );
+}
+
 add_filter( 'wp_insert_post_data', 'comma_dias_check' );
+add_action( 'init', 'comma_dias_enqueues' );
 ?>
