@@ -1,4 +1,4 @@
-=== Comma Diacritics ===
+=== Correct Romanian Diacritics ===
 Contributors: sushkov
 Tags: comma, diacritics, romanian, cedilla, virgula, diacritice, diacritică, diacritica, română, românia
 Requires at least: WordPress 2.9
