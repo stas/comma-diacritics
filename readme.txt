@@ -2,8 +2,8 @@
 Contributors: sushkov
 Tags: comma, diacritics, romanian, cedilla, virgula, diacritice, diacritică, diacritica, română, românia
 Requires at least: WordPress 2.9
-Tested up to: WordPress 3.0.3
-Stable tag: 0.2
+Tested up to: WordPress 3.0.4
+Stable tag: 0.3
 Donate link: http://stas.nerd.ro/pub/donate/
 
 Searches and replaces the wrong (sedilla) diacritics with the correct ones on data saving
@@ -25,6 +25,9 @@ Please report bugs on [plugin page issues tracker](https://github.com/stas/comma
 
 
 == Changelog ==
+
+= 0.3 =
+* Now handles titles too (props @Cristian Adam)
 
 = 0.2 =
 * Added support for:
