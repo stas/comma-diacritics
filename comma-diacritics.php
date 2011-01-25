@@ -3,7 +3,7 @@
 Plugin Name: Correct Romanian Diacritics
 Plugin URI: https://github.com/stas/comma-diacritics
 Description: Searches and replaces the wrong (sedilla) diacritics with the correct ones on data saving
-Version: 0.2
+Version: 0.3
 Author: Stas Sușcov
 Author URI: http://stas.nerd.ro/
 */
@@ -28,7 +28,7 @@ Author URI: http://stas.nerd.ro/
 ?>
 <?php
 
-define( 'COMMA_DIAS_VERSION', '0.2' );
+define( 'COMMA_DIAS_VERSION', '0.3' );
 
 /**
  * comma_dias_get()
